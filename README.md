@@ -1,1 +1,1 @@
-# troche.teorii
+# troche teorii

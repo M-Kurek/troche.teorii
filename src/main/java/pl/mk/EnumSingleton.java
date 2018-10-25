@@ -6,4 +6,11 @@ public enum EnumSingleton {
     public static EnumSingleton getInstance() {
         return INSTANCE;
     }
+
+    /**
+     compiled as final !
+     */
+    public static void doSth() {
+        //staff
+    }
 }
