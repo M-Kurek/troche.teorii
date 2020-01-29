@@ -9,12 +9,6 @@ public class AbstractStructureWrapper {
 
     private List<ZenId> zPart = new ArrayList<>();
 
-    public AbstractStructureWrapper(
-            List<StarId> sItems, List<ZenId> zItems) {
-        this.sPart = sItems;
-        this.zPart = zItems;
-    }
-
     public AbstractStructureWrapper(List<TheId> sItems) {
         for (TheId one : sItems) {
             if (one instanceof StarId) {
